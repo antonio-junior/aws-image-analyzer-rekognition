@@ -1,0 +1,21 @@
+{
+  "name": "aws-image-analyzer-rekognito",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Antônio Junior <acsjunior1@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm install"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">= 4.4.7",
+    "npm": ">= 2.15.8"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.802.0",
+    "axios": "^0.21.0"
+  }
+}
